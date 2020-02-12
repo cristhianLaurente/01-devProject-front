@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
-import { Button, Container, Modal } from 'react-bootstrap';
+import React, { useState } from "react";
+import { Button, Container, Modal } from "react-bootstrap";
+
+import SignIn from "../../components/SignIn";
 
 export default () => {
   const [modalStatus, setModalStatus] = useState(false);
@@ -10,7 +12,9 @@ export default () => {
   return (
     <Container>
       <h1>Home page works!</h1>
-      <Button variant="primary" onClick={toggleModal}>bootstrap</Button>
+      <Button variant="primary" onClick={toggleModal}>
+        bootstrap
+      </Button>
 
       <Modal show={modalStatus} onHide={toggleModal}>
         <Modal.Header closeButton>
@@ -22,10 +26,15 @@ export default () => {
         </Modal.Body>
 
         <Modal.Footer>
-          <Button variant="secondary" onClick={toggleModal}>Close</Button>
-          <Button variant="primary" onClick={toggleModal}>Save changes</Button>
+          <Button variant="secondary" onClick={toggleModal}>
+            Close
+          </Button>
+          <Button variant="primary" onClick={toggleModal}>
+            Save changes
+          </Button>
         </Modal.Footer>
       </Modal>
+      <SignIn />
     </Container>
   );
 };

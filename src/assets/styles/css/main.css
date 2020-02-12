@@ -1,0 +1,12 @@
+.signIn__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.signIn__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=main.css.map */
