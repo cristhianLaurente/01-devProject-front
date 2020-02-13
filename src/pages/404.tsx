@@ -7,7 +7,7 @@ import { PageTransition } from '../components/page-transition/PageTransition';
 export default () => {
   const history = useHistory();
   return (
-    <PageTransition>
+    <PageTransition container>
       <h1>Not found :c</h1>
       <Button variant="outline-warning" onClick={() => history.push('/')}>
         Volver

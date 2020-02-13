@@ -25,5 +25,5 @@ export const pageTransition = {
 };
 
 export const pageStyle: MotionStyle = {
-  position: 'absolute',
+  // position: 'absolute',
 };

@@ -11,7 +11,7 @@ export default () => {
   const toggleModal = () => setModalStatus(!modalStatus);
 
   return (
-    <PageTransition>
+    <PageTransition container>
       <h1>Home page works!</h1>
       <Button variant="primary" onClick={toggleModal}>
         bootstrap

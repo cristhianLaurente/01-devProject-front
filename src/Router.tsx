@@ -17,14 +17,12 @@ export default () => {
           </Container>
         }>
         <AnimatePresence>
-          <Container>
-            <Switch>
-              {/* home page */}
-              <Route exact path="/" component={Home}></Route>
-              {/* not found page */}
-              <Route component={NotFound}></Route>
-            </Switch>
-          </Container>
+          <Switch>
+            {/* home page */}
+            <Route exact path="/" component={Home}></Route>
+            {/* not found page */}
+            <Route component={NotFound}></Route>
+          </Switch>
         </AnimatePresence>
       </React.Suspense>
     </Router>

@@ -6,12 +6,20 @@ import {
   pageTransition,
 } from './page-transition-config';
 
+/** props PageTransition component */
+interface PageTransitionProps {
+  children: ReactElement[] | ReactElement;
+  /** set as bootstrap container */
+  container?: boolean;
+}
+
 /** add fade transition to page */
-export const PageTransition = (props: { children: ReactElement[] }) => {
+export const PageTransition = (props: PageTransitionProps) => {
   return (
     <motion.div
       style={pageStyle}
       initial="initial"
+      className={props.container ? 'container' : ''}
       animate="in"
       exit="out"
       variants={pageVariants}
