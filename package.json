@@ -2,6 +2,32 @@
   "name": "dev-project",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Cristhian Eduardo Laurente López",
+    "email": "claurente.1999@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "Chris Santiz",
+      "email": "santz.dev@gmail.com"
+    },
+    {
+      "name": "Jean Pierre Garbi",
+      "email": "jean27garbi@gmail.com"
+    },
+    {
+      "name": "David David Velazquez",
+      "email": "davidarmando.gdl@live.com"
+    },
+    {
+      "name": "Luis Davaria",
+      "email": "daprimovaria@outlook.com"
+    },
+    {
+      "name": "Alberto Cruz",
+      "email": "tsugumory08@gmail.com"
+    }
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
